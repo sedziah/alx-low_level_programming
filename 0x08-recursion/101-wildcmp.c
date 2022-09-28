@@ -1,4 +1,4 @@
-#include “main.h"
+#include "main.h"
 
 /**
  * test - tests if wildcard is a proper match
@@ -64,4 +64,3 @@ int wildcmp(char *s1, char *s2)
 		return (1);
 	return (wildcmp(s1 + 1, s2 + 1));
 }
-"

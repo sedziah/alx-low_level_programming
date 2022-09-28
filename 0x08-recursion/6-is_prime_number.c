@@ -1,4 +1,4 @@
-#include “main.h"
+#include "main.h"
 
 /**
  * prime_check - checks to see if number is prime
@@ -29,4 +29,3 @@ int is_prime_number(int n)
 		return (1);
 	return (prime_check(2, n));
 }
-"
