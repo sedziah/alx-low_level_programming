@@ -1,3 +1,5 @@
-*.o
-*.c
-
+*
+!*/
+!main.h
+!create_static_lib.sh
+!README.md
